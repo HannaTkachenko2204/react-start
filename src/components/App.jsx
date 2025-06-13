@@ -1,5 +1,6 @@
 import Product from './Product';
 import BookList from './BookList'
+import Card from './Card';
 
 const favBooks = [
   { id: "id-1", name: "JS for beginners" },
@@ -28,7 +29,7 @@ export default function App() {
       <BookList books={favBooks} />
     </div>
 
-    
+    <Card>Text between opening and closing tag</Card>
     </>
   );
 }
